@@ -1,0 +1,25 @@
+{
+  "name": "quickbase-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for interacting with Quickbase REST API",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.7.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
